@@ -1,0 +1,1789 @@
+[11/06/2018 21:04] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1629, in crclan_auditfam
+    option_exec = '--exec' in options
+TypeError: argument of type 'NoneType' is not iterable
+[11/06/2018 21:04] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1635, in crclan_auditfam
+    clan_models = await api.clan_models(family_tags)
+AttributeError: 'NoneType' object has no attribute 'clan_models'
+[11/06/2018 21:11] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1635, in crclan_auditfam
+    clan_models = await api.clan_models(family_tags)
+AttributeError: 'NoneType' object has no attribute 'clan_models'
+[11/06/2018 21:12] ERROR red on_command_error 369: Exception in command 'crclan roster'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1391, in crclan_roster
+    ctx, server, clan_data, cache_warning=data_is_cached, color=random_discord_color())
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 915, in send
+    em = self.embed(color=color, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 943, in embed
+    " | #{0.tag}").format(data)
+TypeError: non-empty format string passed to object.__format__
+[11/06/2018 21:15] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1629, in crclan_auditfam
+    option_exec = '--exec' in options
+TypeError: argument of type 'NoneType' is not iterable
+[11/06/2018 21:16] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1635, in crclan_auditfam
+    clan_models = await api.clan_models(family_tags)
+AttributeError: 'NoneType' object has no attribute 'clan_models'
+[11/06/2018 21:20] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1640, in crclan_auditfam
+    role = self.manager.clantag_to_discord_role(server, c.tag)
+  File "/home/marcus/Red-DiscordBot/cogs/cr_api.py", line 839, in tag
+    return self.data.get('tag', None)
+AttributeError: 'str' object has no attribute 'get'
+[11/06/2018 21:21] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1640, in crclan_auditfam
+    role = self.manager.clantag_to_discord_role(server, c.tag)
+  File "/home/marcus/Red-DiscordBot/cogs/cr_api.py", line 839, in tag
+    return self.data.get('tag', None)
+AttributeError: 'str' object has no attribute 'get'
+[11/06/2018 21:22] ERROR red on_command_error 369: Exception in command 'crclan clankey'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1262, in crclan_clankey
+    success = await self.send_clan(ctx, key=key)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1308, in send_clan
+    await self.roster_view.send(ctx, server, data, color=color)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 915, in send
+    em = self.embed(color=color, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 943, in embed
+    " | #{0.tag}").format(data)
+TypeError: non-empty format string passed to object.__format__
+[11/06/2018 21:33] ERROR red on_command_error 369: Exception in command 'welcomeset'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/welcome.py", line 34, in welcomeset
+    self.settings[server.id]["CHANNEL"] = server.default_channel.id
+AttributeError: 'NoneType' object has no attribute 'id'
+[11/06/2018 22:12] ERROR red <module> 634: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 813, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.url.raw_host, req.port)
+  File "lib/aiohttp/connector.py", line 727, in _resolve_host
+    loop=self._loop)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 361, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 296, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "lib/aiohttp/resolver.py", line 31, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 361, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 296, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 614, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 387, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "red.py", line 603, in main
+    yield from bot.connect()
+  File "lib/discord/client.py", line 451, in connect
+    self.ws = yield from DiscordWebSocket.from_client(self, resume=True)
+  File "lib/discord/gateway.py", line 198, in from_client
+    gateway = yield from client.http.get_gateway()
+  File "lib/discord/http.py", line 633, in get_gateway
+    data = yield from self.request(Route('GET', '/gateway'))
+  File "lib/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/helpers.py", line 104, in __iter__
+    ret = yield from self._coro
+  File "lib/aiohttp/client.py", line 267, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 402, in connect
+    proto = yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 749, in _create_connection
+    _, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 817, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:True [Temporary failure in name resolution]
+[11/06/2018 23:20] ERROR red on_command_error 369: Exception in command 'welcomeset'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/welcome.py", line 34, in welcomeset
+    self.settings[server.id]["CHANNEL"] = server.default_channel.id
+AttributeError: 'NoneType' object has no attribute 'id'
+[11/06/2018 23:50] ERROR red on_command_error 369: Exception in command 'crclan clankey'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1262, in crclan_clankey
+    success = await self.send_clan(ctx, key=key)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1308, in send_clan
+    await self.roster_view.send(ctx, server, data, color=color)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 915, in send
+    em = self.embed(color=color, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 943, in embed
+    " | #{0.tag}").format(data)
+TypeError: non-empty format string passed to object.__format__
+[12/06/2018 00:54] ERROR red on_command_error 369: Exception in command 'crclan iaudit'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1562, in crclan_iaudit
+    dc_members_without_member_role.apped(dc_member)
+AttributeError: 'list' object has no attribute 'apped'
+[12/06/2018 01:15] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1674, in crclan_auditfam
+    option_exec = '--exec' in options
+TypeError: argument of type 'NoneType' is not iterable
+[12/06/2018 01:23] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1692, in crclan_auditfam
+    role = self.manager.clantag_to_discord_role(server, c.tag)
+  File "/home/marcus/Red-DiscordBot/cogs/cr_api.py", line 839, in tag
+    return self.data.get('tag', None)
+AttributeError: 'str' object has no attribute 'get'
+[12/06/2018 01:29] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1692, in crclan_auditfam
+    role = self.manager.clantag_to_discord_role(server, c.tag)
+  File "/home/marcus/Red-DiscordBot/cogs/cr_api.py", line 839, in tag
+    return self.data.get('tag', None)
+AttributeError: 'str' object has no attribute 'get'
+[12/06/2018 01:35] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1692, in crclan_auditfam
+    role = self.manager.clantag_to_discord_role(server, c.tag)
+  File "/home/marcus/Red-DiscordBot/cogs/cr_api.py", line 839, in tag
+    return self.data.get('tag', None)
+AttributeError: 'str' object has no attribute 'get'
+[12/06/2018 01:54] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1687, in crclan_auditfam
+    clan_models = await self.manager.get_clans(server)
+TypeError: object dict can't be used in 'await' expression
+[12/06/2018 01:59] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1690, in crclan_auditfam
+    role = self.manager.clantag_to_discord_role(server, c.tag)
+AttributeError: 'str' object has no attribute 'tag'
+[12/06/2018 02:07] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1688, in crclan_auditfam
+    for clan_tag, clan_model in clan_models:
+ValueError: too many values to unpack (expected 2)
+[12/06/2018 02:08] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1688, in crclan_auditfam
+    for clan_tag, clan_model in clan_models:
+ValueError: too many values to unpack (expected 2)
+[12/06/2018 02:12] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1693, in crclan_auditfam
+    c.role = role
+UnboundLocalError: local variable 'c' referenced before assignment
+[12/06/2018 02:15] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1698, in crclan_auditfam
+    for clan_tag, clan_model in clan_models:
+ValueError: too many values to unpack (expected 2)
+[12/06/2018 20:52] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1694, in crclan_auditfam
+    for m in clan_model['members']:
+KeyError: 'members'
+[12/06/2018 20:54] ERROR red on_command_error 369: Exception in command 'crclan iaudit'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1545, in crclan_iaudit
+    out.append("Discord members in the clan but does not have the {} role:".format(clanrole.name))
+AttributeError: 'NoneType' object has no attribute 'name'
+[12/06/2018 20:56] ERROR red on_command_error 369: Exception in command 'crclan iaudit'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1545, in crclan_iaudit
+    out.append("Discord members in the clan but does not have the {} role:".format(clanrole.name))
+AttributeError: 'NoneType' object has no attribute 'name'
+[12/06/2018 20:58] ERROR red on_command_error 369: Exception in command 'crclan iaudit'
+Traceback (most recent call last):
+  File "lib/aiohttp/client_reqrep.py", line 624, in start
+    (message, payload) = yield from self._protocol.read()
+  File "lib/aiohttp/streams.py", line 554, in read
+    yield from self._waiter
+  File "/usr/lib/python3.5/asyncio/futures.py", line 361, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 296, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 266, in result
+    raise CancelledError
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1519, in crclan_iaudit
+    if player_tag not in clan_model.member_tags:
+AttributeError: 'bool' object has no attribute 'member_tags'
+[12/06/2018 21:12] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/aiohttp/client_reqrep.py", line 624, in start
+    (message, payload) = yield from self._protocol.read()
+  File "lib/aiohttp/streams.py", line 554, in read
+    yield from self._waiter
+  File "/usr/lib/python3.5/asyncio/futures.py", line 361, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 296, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 266, in result
+    raise CancelledError
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1704, in crclan_auditfam
+    for m in clan_model.members:
+AttributeError: 'bool' object has no attribute 'members'
+[12/06/2018 21:15] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/aiohttp/client_reqrep.py", line 624, in start
+    (message, payload) = yield from self._protocol.read()
+  File "lib/aiohttp/streams.py", line 554, in read
+    yield from self._waiter
+  File "/usr/lib/python3.5/asyncio/futures.py", line 361, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 296, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 266, in result
+    raise CancelledError
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1704, in crclan_auditfam
+    for m in c_model.members:
+AttributeError: 'bool' object has no attribute 'members'
+[12/06/2018 21:16] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1711, in crclan_auditfam
+    clan_role = c.role
+AttributeError: 'str' object has no attribute 'role'
+[12/06/2018 21:17] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1711, in crclan_auditfam
+    clan_role = c.role
+AttributeError: 'str' object has no attribute 'role'
+[12/06/2018 21:33] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1702, in crclan_auditfam
+    for clan_model in clan_models.items():
+AttributeError: 'coroutine' object has no attribute 'items'
+[12/06/2018 21:34] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1702, in crclan_auditfam
+    for clan_model in clan_models.items():
+AttributeError: 'coroutine' object has no attribute 'items'
+[12/06/2018 21:35] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1702, in crclan_auditfam
+    for clan_model in clan_models.items():
+AttributeError: 'coroutine' object has no attribute 'items'
+[12/06/2018 21:41] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1703, in crclan_auditfam
+    for clan_model in clan_models.items():
+AttributeError: 'coroutine' object has no attribute 'items'
+[12/06/2018 21:52] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1703, in crclan_auditfam
+    # member_models = [m for m in c.members for c in clan_models]
+AttributeError: 'coroutine' object has no attribute 'items'
+[12/06/2018 21:52] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1690, in crclan_auditfam
+    clan_key = self.manager.tag2key(clan_tag)
+TypeError: tag2key() missing 1 required positional argument: 'tag'
+[12/06/2018 21:54] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1691, in crclan_auditfam
+    clan_model = await self.update_clan_data(clan_tag)
+AttributeError: 'CRClan' object has no attribute 'update_clan_data'
+[12/06/2018 21:58] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1697, in crclan_auditfam
+    role = self.manager.clantag_to_discord_role(server, clan_model.tag)
+AttributeError: 'tuple' object has no attribute 'tag'
+[12/06/2018 22:11] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1691, in crclan_auditfam
+    await self.crclan_audit(ctx, clan_key)
+TypeError: 'Command' object is not callable
+[12/06/2018 22:13] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1697, in crclan_auditfam
+    role = self.manager.clantag_to_discord_role(server, clan_model.tag)
+AttributeError: 'tuple' object has no attribute 'tag'
+[13/06/2018 01:06] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1700, in crclan_auditfam
+    clan_model['role_name'] = role
+TypeError: 'CRClanModel' object does not support item assignment
+[13/06/2018 01:13] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1708, in crclan_auditfam
+    clan_model.clan_role = role
+AttributeError: can't set attribute
+[13/06/2018 01:19] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1713, in crclan_auditfam
+    clan_model.clan_role = role
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 236, in clan_role
+    self.clan_role = val
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 235, in clan_role
+    if val is not None:
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 235, in clan_role
+    if val is not None:
+  File "_pydevd_bundle/pydevd_cython.pyx", line 968, in _pydevd_bundle.pydevd_cython.SafeCallWrapper.__call__
+  File "_pydevd_bundle/pydevd_cython.pyx", line 515, in _pydevd_bundle.pydevd_cython.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython.pyx", line 636, in _pydevd_bundle.pydevd_cython.PyDBFrame.trace_dispatch
+RecursionError: maximum recursion depth exceeded in comparison
+[13/06/2018 01:28] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1725, in crclan_auditfam
+    for clan_key, clan_model in clan_models:
+ValueError: too many values to unpack (expected 2)
+[13/06/2018 01:29] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1728, in crclan_auditfam
+    discord_user = self.manager.tag2member(server, m.tag)
+AttributeError: 'dict' object has no attribute 'tag'
+[13/06/2018 01:30] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1728, in crclan_auditfam
+    discord_user = self.manager.tag2member(server, m.tag)
+AttributeError: 'dict' object has no attribute 'tag'
+[13/06/2018 01:33] ERROR red on_command_error 369: Exception in command 'crclan clankey'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1283, in crclan_clankey
+    success = await self.send_clan(ctx, key=key)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1329, in send_clan
+    await self.roster_view.send(ctx, server, data, color=color)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 936, in send
+    em = self.embed(color=color, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 964, in embed
+    " | #{0.tag}").format(data)
+TypeError: non-empty format string passed to object.__format__
+[13/06/2018 01:34] ERROR red on_command_error 369: Exception in command 'crclan clankey'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1283, in crclan_clankey
+    success = await self.send_clan(ctx, key=key)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1329, in send_clan
+    await self.roster_view.send(ctx, server, data, color=color)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 936, in send
+    em = self.embed(color=color, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 964, in embed
+    " | #{0.tag}").format(data)
+TypeError: non-empty format string passed to object.__format__
+[13/06/2018 01:38] ERROR red on_command_error 369: Exception in command 'crclan clankey'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1277, in crclan_clankey
+    success = await self.send_clan(ctx, key=key)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1323, in send_clan
+    await self.roster_view.send(ctx, server, data, color=color)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 931, in send
+    em = self.embed(color=color, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 958, in embed
+    " | #{0.tag}").format(data)
+TypeError: non-empty format string passed to object.__format__
+[13/06/2018 01:40] ERROR red on_command_error 369: Exception in command 'crclan clankey'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1277, in crclan_clankey
+    success = await self.send_clan(ctx, key=key)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1323, in send_clan
+    await self.roster_view.send(ctx, server, data, color=color)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 931, in send
+    em = self.embed(color=color, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 958, in embed
+    " | #{0.tag}").format(data)
+TypeError: non-empty format string passed to object.__format__
+[13/06/2018 01:41] ERROR red on_command_error 369: Exception in command 'crclan clankey'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1277, in crclan_clankey
+    success = await self.send_clan(ctx, key=key)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1323, in send_clan
+    await self.roster_view.send(ctx, server, data, color=color)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 931, in send
+    em = self.embed(color=color, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 958, in embed
+    " | #{0.tag}").format(data)
+TypeError: non-empty format string passed to object.__format__
+[13/06/2018 01:42] ERROR red on_command_error 369: Exception in command 'crclan clankey'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1277, in crclan_clankey
+    success = await self.send_clan(ctx, key=key)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1312, in send_clan
+    data = await self.manager.get_clan_data(server, tag=sctag.tag)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 703, in get_clan_data
+    data = await self.update_clan_data(tag)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 744, in update_clan_data
+    data = await resp.json()
+  File "lib/aiohttp/client_reqrep.py", line 795, in json
+    headers=self.headers)
+aiohttp.client_exceptions.ContentTypeError: 0, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8'
+[13/06/2018 01:43] ERROR red on_command_error 369: Exception in command 'crclan clankey'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1277, in crclan_clankey
+    success = await self.send_clan(ctx, key=key)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1312, in send_clan
+    data = await self.manager.get_clan_data(server, tag=sctag.tag)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 703, in get_clan_data
+    data = await self.update_clan_data(tag)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 744, in update_clan_data
+    data = await resp.json()
+  File "lib/aiohttp/client_reqrep.py", line 795, in json
+    headers=self.headers)
+aiohttp.client_exceptions.ContentTypeError: 0, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8'
+[13/06/2018 01:44] ERROR red on_command_error 369: Exception in command 'crclan iaudit'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1514, in crclan_iaudit
+    clan_model = await self.manager.get_clan_data(server, key=clankey)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 703, in get_clan_data
+    data = await self.update_clan_data(tag)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 744, in update_clan_data
+    data = await resp.json()
+  File "lib/aiohttp/client_reqrep.py", line 795, in json
+    headers=self.headers)
+aiohttp.client_exceptions.ContentTypeError: 0, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8'
+[13/06/2018 01:45] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1704, in crclan_auditfam
+    clan_model = await self.manager.get_clan_data(server, clan_key)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 708, in get_clan_data
+    data = await self.update_clan_data(tag)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 749, in update_clan_data
+    data = await resp.json()
+  File "lib/aiohttp/client_reqrep.py", line 795, in json
+    headers=self.headers)
+aiohttp.client_exceptions.ContentTypeError: 0, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8'
+[13/06/2018 01:46] ERROR red on_command_error 369: Exception in command 'crclan iaudit'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1522, in crclan_iaudit
+    clan_model = await self.manager.get_clan_data(server, key=clankey)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 708, in get_clan_data
+    data = await self.update_clan_data(tag)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 749, in update_clan_data
+    data = await resp.json()
+  File "lib/aiohttp/client_reqrep.py", line 795, in json
+    headers=self.headers)
+aiohttp.client_exceptions.ContentTypeError: 0, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8'
+[13/06/2018 01:48] ERROR red on_command_error 369: Exception in command 'crclan iaudit'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1522, in crclan_iaudit
+    clan_model = await self.manager.get_clan_data(server, key=clankey)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 708, in get_clan_data
+    data = await self.update_clan_data(tag)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 749, in update_clan_data
+    data = await resp.json()
+  File "lib/aiohttp/client_reqrep.py", line 795, in json
+    headers=self.headers)
+aiohttp.client_exceptions.ContentTypeError: 0, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8'
+[15/06/2018 20:46] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1752, in crclan_auditfam
+    out.append("+ {}".format(m.display_name))
+AttributeError: 'dict' object has no attribute 'display_name'
+[15/06/2018 20:48] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1752, in crclan_auditfam
+    display_name = m['display_name']
+KeyError: 'display_name'
+[15/06/2018 20:48] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1752, in crclan_auditfam
+    display_name = m['display_name']
+KeyError: 'display_name'
+[15/06/2018 20:49] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1752, in crclan_auditfam
+    display_name = m['display_name']
+KeyError: 'display_name'
+[15/06/2018 20:51] ERROR red on_command_error 369: Exception in command 'crclan auditfam'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1752, in crclan_auditfam
+    display_name = m['display_name']
+KeyError: 'display_name'
+[15/06/2018 21:00] ERROR red on_command_error 369: Exception in command 'gif'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/image.py", line 130, in gif
+    async with aiohttp.get(url) as r:
+AttributeError: module 'aiohttp' has no attribute 'get'
+[15/06/2018 21:32] ERROR red on_command_error 369: Exception in command 'crclan roster'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1418, in crclan_roster
+    ctx, server, clan_data, cache_warning=data_is_cached, color=random_discord_color())
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 942, in send
+    em = self.embed(color=color, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 970, in embed
+    " | #{0.tag}").format(data)
+TypeError: non-empty format string passed to object.__format__
+[15/06/2018 21:32] ERROR red on_command_error 369: Exception in command 'crclan roster'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1418, in crclan_roster
+    ctx, server, clan_data, cache_warning=data_is_cached, color=random_discord_color())
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 942, in send
+    em = self.embed(color=color, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 970, in embed
+    " | #{0.tag}").format(data)
+TypeError: non-empty format string passed to object.__format__
+[15/06/2018 21:32] ERROR red on_command_error 369: Exception in command 'crclan roster'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1418, in crclan_roster
+    ctx, server, clan_data, cache_warning=data_is_cached, color=random_discord_color())
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 942, in send
+    em = self.embed(color=color, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 970, in embed
+    " | #{0.tag}").format(data)
+TypeError: non-empty format string passed to object.__format__
+[15/06/2018 21:34] ERROR red on_command_error 369: Exception in command 'crclan roster'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1418, in crclan_roster
+    ctx, server, clan_data, cache_warning=data_is_cached, color=random_discord_color())
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 942, in send
+    em = self.embed(color=color, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 970, in embed
+    " | #{0.tag}").format(data)
+TypeError: non-empty format string passed to object.__format__
+[15/06/2018 21:35] ERROR red on_command_error 369: Exception in command 'crclan roster'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1417, in crclan_roster
+    ctx, server, clan_data, cache_warning=data_is_cached, color=random_discord_color())
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 942, in send
+    em = self.embed(color=color, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 969, in embed
+    " | #{0.tag}").format(data)
+TypeError: non-empty format string passed to object.__format__
+[15/06/2018 21:37] ERROR red on_command_error 369: Exception in command 'crclan roster'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1418, in crclan_roster
+    ctx, server, clan_data, cache_warning=data_is_cached, color=random_discord_color())
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 942, in send
+    em = self.embed(color=color, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 970, in embed
+    " | #{0.tag}").format(data)
+TypeError: non-empty format string passed to object.__format__
+[15/06/2018 21:39] ERROR red on_command_error 369: Exception in command 'crclan roster'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1420, in crclan_roster
+    ctx, server, clan_data, cache_warning=data_is_cached, color=random_discord_color())
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 942, in send
+    em = self.embed(color=color, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 972, in embed
+    " | #{0.tag}").format(score, donations, tag)
+AttributeError: 'NoneType' object has no attribute 'score'
+[15/06/2018 21:40] ERROR red on_command_error 369: Exception in command 'crclan roster'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1420, in crclan_roster
+    ctx, server, clan_data, cache_warning=data_is_cached, color=random_discord_color())
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 942, in send
+    em = self.embed(color=color, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 972, in embed
+    " | #{0.tag}").format(score, donations, tag)
+AttributeError: 'NoneType' object has no attribute 'score'
+[15/06/2018 21:41] ERROR red on_command_error 369: Exception in command 'crclan roster'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1420, in crclan_roster
+    ctx, server, clan_data, cache_warning=data_is_cached, color=random_discord_color())
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 942, in send
+    em = self.embed(color=color, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 972, in embed
+    " | #{2}").format(score, donations, tag)
+TypeError: non-empty format string passed to object.__format__
+[15/06/2018 21:42] ERROR red on_command_error 369: Exception in command 'crclan roster'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1420, in crclan_roster
+    ctx, server, clan_data, cache_warning=data_is_cached, color=random_discord_color())
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 942, in send
+    em = self.embed(color=color, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 972, in embed
+    " | #{2}").format(score, donations, tag)
+TypeError: non-empty format string passed to object.__format__
+[15/06/2018 21:45] ERROR red on_command_error 369: Exception in command 'crclan roster'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1420, in crclan_roster
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 942, in send
+    em = self.embed(color=color, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 972, in embed
+    "{0:,d}"
+TypeError: non-empty format string passed to object.__format__
+[15/06/2018 21:45] ERROR red on_command_error 369: Exception in command 'crclan roster'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1422, in crclan_roster
+    ctx, server, clan_data, cache_warning=data_is_cached, color=random_discord_color())
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 942, in send
+    em = self.embed(color=color, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 974, in embed
+    " | #{2}").format(score, donations, tag)
+ValueError: Unknown format code 'd' for object of type 'str'
+[15/06/2018 21:47] ERROR red on_command_error 369: Exception in command 'crclan roster'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1417, in crclan_roster
+    ctx, server, clan_data, cache_warning=data_is_cached, color=random_discord_color())
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 942, in send
+    em = self.embed(color=color, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 969, in embed
+    " | #{0.tag}").format(data)
+TypeError: non-empty format string passed to object.__format__
+[15/06/2018 21:56] ERROR red on_command_error 369: Exception in command 'crclan roster'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 1415, in crclan_roster
+    ctx, server, clan_data, cache_warning=data_is_cached, color=random_discord_color())
+  File "/home/marcus/Red-DiscordBot/cogs/crclan.py", line 943, in send
+    await self.bot.send_message(ctx.message.channel, embed=em)
+  File "red.py", line 92, in send_message
+    return await super().send_message(*args, **kwargs)
+  File "lib/discord/client.py", line 1151, in send_message
+    data = yield from self.http.send_message(channel_id, content, guild_id=guild_id, tts=tts, embed=embed)
+  File "lib/discord/http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: BAD REQUEST (status code: 400)
