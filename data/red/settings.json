@@ -1,0 +1,14 @@
+{
+    "EMAIL" : "marc.reventos.papo@gmail.com",
+    "OWNER" : "251478589134995456",
+    "PASSWORD" : null,
+    "PREFIXES" : [
+        "!"
+    ],
+    "TOKEN" : "MzkwOTA5MzY4MDg4MTMzNjMy.DgBFMA.42gQDZiT2AvZZlgkWi_zNLuHJF4",
+    "default" : {
+        "ADMIN_ROLE" : "Administrador",
+        "MOD_ROLE" : "Moderador/Colider",
+        "PREFIXES" : []
+    }
+}

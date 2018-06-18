@@ -1,0 +1,33 @@
+{
+    "badge" : {
+        "category" : "01_Symbol",
+        "id" : 16000000,
+        "image" : "https://royaleapi.github.io/cr-api-assets/badges/Flame_01.png",
+        "name" : "Flame_01"
+    },
+    "clanChest" : {
+        "crowns" : null,
+        "level" : 0,
+        "maxLevel" : 10,
+        "status" : "inactive"
+    },
+    "description" : "Membre FCCR @FedcatCR. Pedrera CC. Tw:@CremaCatalanaCR Discord: jz9wMwF.bit/cc-normativa. R\u00e9cord 3800 \ud83c\udfc6Clan:39250",
+    "donations" : 0,
+    "location" : {
+        "code" : "MS",
+        "isCountry" : true,
+        "name" : "Montserrat"
+    },
+    "memberCount" : 0,
+    "members" : [],
+    "name" : "CremaCatalana 7",
+    "requiredScore" : 3400,
+    "score" : 1938,
+    "tag" : "2JURLL0J",
+    "tracking" : {
+        "active" : false,
+        "available" : false,
+        "snapshotCount" : 0
+    },
+    "type" : "invite only"
+}

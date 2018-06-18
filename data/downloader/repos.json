@@ -1,0 +1,423 @@
+{
+    "Dumb-Cogs" : {
+        "adventure" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/Dumb-Cogs/adventure/adventure.py",
+            "folder" : "data/downloader/Dumb-Cogs/adventure"
+        },
+        "alot" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/Dumb-Cogs/alot/alot.py",
+            "folder" : "data/downloader/Dumb-Cogs/alot"
+        },
+        "economytrickle" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/Dumb-Cogs/economytrickle/economytrickle.py",
+            "folder" : "data/downloader/Dumb-Cogs/economytrickle"
+        },
+        "engine" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/Dumb-Cogs/engine/engine.py",
+            "folder" : "data/downloader/Dumb-Cogs/engine"
+        },
+        "hal" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/Dumb-Cogs/hal/hal.py",
+            "folder" : "data/downloader/Dumb-Cogs/hal"
+        },
+        "ide" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/Dumb-Cogs/ide/ide.py",
+            "folder" : "data/downloader/Dumb-Cogs/ide"
+        },
+        "lolz" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/Dumb-Cogs/lolz/lolz.py",
+            "folder" : "data/downloader/Dumb-Cogs/lolz"
+        },
+        "noflippedtables" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/Dumb-Cogs/noflippedtables/noflippedtables.py",
+            "folder" : "data/downloader/Dumb-Cogs/noflippedtables"
+        },
+        "ping" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/Dumb-Cogs/ping/ping.py",
+            "folder" : "data/downloader/Dumb-Cogs/ping"
+        },
+        "repl" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/Dumb-Cogs/repl/repl.py",
+            "folder" : "data/downloader/Dumb-Cogs/repl"
+        },
+        "sadface" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/Dumb-Cogs/sadface/sadface.py",
+            "folder" : "data/downloader/Dumb-Cogs/sadface"
+        },
+        "snacktime" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/Dumb-Cogs/snacktime/snacktime.py",
+            "folder" : "data/downloader/Dumb-Cogs/snacktime"
+        },
+        "url" : "https://github.com/irdumbs/Dumb-Cogs",
+        "welcome" : {
+            "INSTALLED" : true,
+            "file" : "data/downloader/Dumb-Cogs/welcome/welcome.py",
+            "folder" : "data/downloader/Dumb-Cogs/welcome"
+        }
+    },
+    "SML-Cogs" : {
+        "activity" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/activity/activity.py",
+            "folder" : "data/downloader/SML-Cogs/activity"
+        },
+        "archive" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/archive/archive.py",
+            "folder" : "data/downloader/SML-Cogs/archive"
+        },
+        "ascii" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/ascii/ascii.py",
+            "folder" : "data/downloader/SML-Cogs/ascii"
+        },
+        "bands" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/bands/bands.py",
+            "folder" : "data/downloader/SML-Cogs/bands"
+        },
+        "banned" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/banned/banned.py",
+            "folder" : "data/downloader/SML-Cogs/banned"
+        },
+        "bsdata" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/bsdata/bsdata.py",
+            "folder" : "data/downloader/SML-Cogs/bsdata"
+        },
+        "calc" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/calc/calc.py",
+            "folder" : "data/downloader/SML-Cogs/calc"
+        },
+        "calendar" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/calendar/calendar.py",
+            "folder" : "data/downloader/SML-Cogs/calendar"
+        },
+        "card" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/card/card.py",
+            "folder" : "data/downloader/SML-Cogs/card"
+        },
+        "challonge" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/challonge/challonge.py",
+            "folder" : "data/downloader/SML-Cogs/challonge"
+        },
+        "channelfilter" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/channelfilter/channelfilter.py",
+            "folder" : "data/downloader/SML-Cogs/channelfilter"
+        },
+        "channelmanager" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/channelmanager/channelmanager.py",
+            "folder" : "data/downloader/SML-Cogs/channelmanager"
+        },
+        "clanbattle" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/clanbattle/clanbattle.py",
+            "folder" : "data/downloader/SML-Cogs/clanbattle"
+        },
+        "clanchest" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/clanchest/clanchest.py",
+            "folder" : "data/downloader/SML-Cogs/clanchest"
+        },
+        "clans" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/clans/clans.py",
+            "folder" : "data/downloader/SML-Cogs/clans"
+        },
+        "clashroyale" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/clashroyale/clashroyale.py",
+            "folder" : "data/downloader/SML-Cogs/clashroyale"
+        },
+        "coc" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/coc/coc.py",
+            "folder" : "data/downloader/SML-Cogs/coc"
+        },
+        "cr_api" : {
+            "INSTALLED" : true,
+            "file" : "data/downloader/SML-Cogs/cr_api/cr_api.py",
+            "folder" : "data/downloader/SML-Cogs/cr_api"
+        },
+        "crapikey" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/crapikey/crapikey.py",
+            "folder" : "data/downloader/SML-Cogs/crapikey"
+        },
+        "crclan" : {
+            "INSTALLED" : true,
+            "file" : "data/downloader/SML-Cogs/crclan/crclan.py",
+            "folder" : "data/downloader/SML-Cogs/crclan"
+        },
+        "crdata" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/crdata/crdata.py",
+            "folder" : "data/downloader/SML-Cogs/crdata"
+        },
+        "crdatae" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/crdatae/crdatae.py",
+            "folder" : "data/downloader/SML-Cogs/crdatae"
+        },
+        "crinfo" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/crinfo/crinfo.py",
+            "folder" : "data/downloader/SML-Cogs/crinfo"
+        },
+        "crladder" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/crladder/crladder.py",
+            "folder" : "data/downloader/SML-Cogs/crladder"
+        },
+        "crprofile" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/crprofile/crprofile.py",
+            "folder" : "data/downloader/SML-Cogs/crprofile"
+        },
+        "crprofile_ext" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/crprofile_ext/crprofile_ext.py",
+            "folder" : "data/downloader/SML-Cogs/crprofile_ext"
+        },
+        "ddlog" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/ddlog/ddlog.py",
+            "folder" : "data/downloader/SML-Cogs/ddlog"
+        },
+        "ddlogmsg" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/ddlogmsg/ddlogmsg.py",
+            "folder" : "data/downloader/SML-Cogs/ddlogmsg"
+        },
+        "deck" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/deck/deck.py",
+            "folder" : "data/downloader/SML-Cogs/deck"
+        },
+        "discordbug" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/discordbug/discordbug.py",
+            "folder" : "data/downloader/SML-Cogs/discordbug"
+        },
+        "discordgram" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/discordgram/discordgram.py",
+            "folder" : "data/downloader/SML-Cogs/discordgram"
+        },
+        "draftroyale" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/draftroyale/draftroyale.py",
+            "folder" : "data/downloader/SML-Cogs/draftroyale"
+        },
+        "eslog" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/eslog/eslog.py",
+            "folder" : "data/downloader/SML-Cogs/eslog"
+        },
+        "fake" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/fake/fake.py",
+            "folder" : "data/downloader/SML-Cogs/fake"
+        },
+        "farmers" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/farmers/farmers.py",
+            "folder" : "data/downloader/SML-Cogs/farmers"
+        },
+        "feedback" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/feedback/feedback.py",
+            "folder" : "data/downloader/SML-Cogs/feedback"
+        },
+        "figlet" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/figlet/figlet.py",
+            "folder" : "data/downloader/SML-Cogs/figlet"
+        },
+        "firebase" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/firebase/firebase.py",
+            "folder" : "data/downloader/SML-Cogs/firebase"
+        },
+        "ga" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/ga/ga.py",
+            "folder" : "data/downloader/SML-Cogs/ga"
+        },
+        "giphy" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/giphy/giphy.py",
+            "folder" : "data/downloader/SML-Cogs/giphy"
+        },
+        "imgutil" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/imgutil/imgutil.py",
+            "folder" : "data/downloader/SML-Cogs/imgutil"
+        },
+        "keenlog" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/keenlog/keenlog.py",
+            "folder" : "data/downloader/SML-Cogs/keenlog"
+        },
+        "logstash" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/logstash/logstash.py",
+            "folder" : "data/downloader/SML-Cogs/logstash"
+        },
+        "magic" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/magic/magic.py",
+            "folder" : "data/downloader/SML-Cogs/magic"
+        },
+        "mentionutil" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/mentionutil/mentionutil.py",
+            "folder" : "data/downloader/SML-Cogs/mentionutil"
+        },
+        "mm" : {
+            "INSTALLED" : true,
+            "file" : "data/downloader/SML-Cogs/mm/mm.py",
+            "folder" : "data/downloader/SML-Cogs/mm"
+        },
+        "nlp" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/nlp/nlp.py",
+            "folder" : "data/downloader/SML-Cogs/nlp"
+        },
+        "quotes" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/quotes/quotes.py",
+            "folder" : "data/downloader/SML-Cogs/quotes"
+        },
+        "racf" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/racf/racf.py",
+            "folder" : "data/downloader/SML-Cogs/racf"
+        },
+        "racf_audit" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/racf_audit/racf_audit.py",
+            "folder" : "data/downloader/SML-Cogs/racf_audit"
+        },
+        "rbs" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/rbs/rbs.py",
+            "folder" : "data/downloader/SML-Cogs/rbs"
+        },
+        "rcs" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/rcs/rcs.py",
+            "folder" : "data/downloader/SML-Cogs/rcs"
+        },
+        "rcsapplication" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/rcsapplication/rcsapplication.py",
+            "folder" : "data/downloader/SML-Cogs/rcsapplication"
+        },
+        "reactionmanager" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/reactionmanager/reactionmanager.py",
+            "folder" : "data/downloader/SML-Cogs/reactionmanager"
+        },
+        "reactionpoll" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/reactionpoll/reactionpoll.py",
+            "folder" : "data/downloader/SML-Cogs/reactionpoll"
+        },
+        "recruit" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/recruit/recruit.py",
+            "folder" : "data/downloader/SML-Cogs/recruit"
+        },
+        "remindme_ext" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/remindme_ext/remindme_ext.py",
+            "folder" : "data/downloader/SML-Cogs/remindme_ext"
+        },
+        "rolehist" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/rolehist/rolehist.py",
+            "folder" : "data/downloader/SML-Cogs/rolehist"
+        },
+        "royalerant" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/royalerant/royalerant.py",
+            "folder" : "data/downloader/SML-Cogs/royalerant"
+        },
+        "search" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/search/search.py",
+            "folder" : "data/downloader/SML-Cogs/search"
+        },
+        "sml" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/sml/sml.py",
+            "folder" : "data/downloader/SML-Cogs/sml"
+        },
+        "smldebug" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/smldebug/smldebug.py",
+            "folder" : "data/downloader/SML-Cogs/smldebug"
+        },
+        "timezone" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/timezone/timezone.py",
+            "folder" : "data/downloader/SML-Cogs/timezone"
+        },
+        "tldr" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/tldr/tldr.py",
+            "folder" : "data/downloader/SML-Cogs/tldr"
+        },
+        "togglerole" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/togglerole/togglerole.py",
+            "folder" : "data/downloader/SML-Cogs/togglerole"
+        },
+        "trivia_helper" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/trivia_helper/trivia_helper.py",
+            "folder" : "data/downloader/SML-Cogs/trivia_helper"
+        },
+        "trophies" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/trophies/trophies.py",
+            "folder" : "data/downloader/SML-Cogs/trophies"
+        },
+        "url" : "http://github.com/smlbiobot/SML-Cogs",
+        "userdata" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/userdata/userdata.py",
+            "folder" : "data/downloader/SML-Cogs/userdata"
+        },
+        "vcutil" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/vcutil/vcutil.py",
+            "folder" : "data/downloader/SML-Cogs/vcutil"
+        },
+        "votemanager" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/SML-Cogs/votemanager/votemanager.py",
+            "folder" : "data/downloader/SML-Cogs/votemanager"
+        }
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "auth" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Njg1LCJpZGVuIjoiMjUxNDc4NTg5MTM0OTk1NDU2IiwibWQiOnt9LCJ0cyI6MTUyNzc3MDc4Mjc5OX0.Xs2aT8h6vsnzjpeSRJqOR6RWuTYtTLyC1K1gPfZzGuw",
+    "data_update_interval" : 1800,
+    "servers" : {
+        "372083509348794368" : {
+            "clans" : {
+                "2CCRRV9R" : {
+                    "key" : "CC4",
+                    "role_id" : "396128327129104395",
+                    "role_name" : "CC4",
+                    "tag" : "2CCRRV9R"
+                },
+                "2JURLL0J" : {
+                    "key" : "CC7",
+                    "role_id" : "396128468733132811",
+                    "role_name" : "CC7",
+                    "tag" : "2JURLL0J"
+                },
+                "2JYC029U" : {
+                    "key" : "CC5",
+                    "role_id" : "396128411044675594",
+                    "role_name" : "CC5",
+                    "tag" : "2JYC029U"
+                },
+                "2JYGCRLL" : {
+                    "key" : "CC",
+                    "role_id" : "372084973139656704",
+                    "role_name" : "CC",
+                    "tag" : "2JYGCRLL"
+                },
+                "2UYCQC29" : {
+                    "key" : "CC3",
+                    "role_id" : "396017192941912065",
+                    "role_name" : "CC3",
+                    "tag" : "2UYCQC29"
+                },
+                "89YG2GU0" : {
+                    "key" : "CC6",
+                    "role_id" : "396128365234356234",
+                    "role_name" : "CC6",
+                    "tag" : "89YG2GU0"
+                },
+                "8P9VQPCY" : {
+                    "key" : "CC2",
+                    "role_id" : "372085009361666050",
+                    "role_name" : "CC2",
+                    "tag" : "8P9VQPCY"
+                }
+            },
+            "elder_role_id" : "390910120407859200",
+            "member_role_id" : "390933129365553152",
+            "players" : {
+                "251478589134995456" : "22RLYPLYC",
+                "275653120057540608" : "Q222J",
+                "281470152971649024" : "2JU20RJV",
+                "455850777022300182" : "8P9VQPCY",
+                "455855113303621652" : "P2Q2VQ"
+            }
+        }
+    }
+}

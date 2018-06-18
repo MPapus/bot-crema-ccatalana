@@ -1,0 +1,12 @@
+{
+    "372083509348794368" : {
+        "BOTS_MSG" : null,
+        "BOTS_ROLE" : null,
+        "CHANNEL" : "396014373891604489",
+        "GREETING" : [
+            "{0.mention} est\u00e0 massa OP! Saludeu-lo o us far\u00e0 3 corones! Abans de res, si us plau, v\u00e9s al canal <#456518386881396736> i utilitza la comanda `!crclan settag [tag de CR]` per a que poguem assignar-te els rols necessaris. Gr\u00e0cies!"
+        ],
+        "ON" : true,
+        "WHISPER" : false
+    }
+}
