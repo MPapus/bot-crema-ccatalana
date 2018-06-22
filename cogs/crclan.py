@@ -853,7 +853,7 @@ class ClanManager:
     @property
     def auth(self):
         """API Auth token"""
-        return self.settings.get('auth')
+        return os.environ.get('TOKEN', None)
 
     @auth.setter
     def auth(self, value):
