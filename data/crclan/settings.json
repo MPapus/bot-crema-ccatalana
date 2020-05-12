@@ -1,5 +1,4 @@
 {
-    "auth" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Njg1LCJpZGVuIjoiMjUxNDc4NTg5MTM0OTk1NDU2IiwibWQiOnt9LCJ0cyI6MTUyNzc3MDc4Mjc5OX0.Xs2aT8h6vsnzjpeSRJqOR6RWuTYtTLyC1K1gPfZzGuw",
     "data_update_interval" : 1800,
     "servers" : {
         "372083509348794368" : {
